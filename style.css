@@ -1,0 +1,83 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    border-radius: 5%;
+}
+
+body {
+    max-height: fit-content;
+    background-color: #441184;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2330cc9e' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%231a4faa' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2369b0a2' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%234447a3' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%238593a4' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%235b3d9c' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%239773a7' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%236d3295' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23a24ea9' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%237b228f' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    background-color: #AA96DA;
+    border-radius: 5%;
+}
+
+#p1 {
+    font-size: 50px;
+    color: #F65A83;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}
+
+#p2 {
+    font-size: 50px;
+    color: #F65A83;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+}
+
+#p3 {
+    font-size: 50px;
+    background: -webkit-linear-gradient(#277BC0, #F675A8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    left: 675px;
+    top: -19px;
+}
+
+#score {
+    font-size: 50px;
+    color: #21E1E1;
+    position: absolute;
+    left: 280px;
+    top: 10px;
+}
+
+#high {
+    font-size: 50px;
+    color: #21E1E1;
+    position: absolute;
+    left: 401px;
+    top: 60px;
+}
+
+#btn_stop {
+    padding: 5px 10px;
+    font-size: 17px;
+    color: black;
+    position: absolute;
+    left: 100px;
+    top: 180px;
+    border-radius: 20px;
+}
+
+#end_msg {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #21E1E1;
+    position: absolute;
+    left: 220px;
+    top: 164px;
+}
